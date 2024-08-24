@@ -2,6 +2,6 @@
 
 int main(int argc, char *argv[]) {
   for (int i=0;i<argc;i++){
-    std::cout << i << ": " << argv[i] << "\n";
+    std::cout << "arg" << i << ": " << argv[i] << "\n";
   }
 }
